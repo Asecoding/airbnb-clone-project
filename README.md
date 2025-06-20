@@ -1,5 +1,5 @@
 # **airbnb-clone-project**
-The Airbnb Clone Project Blueprint
+*The Airbnb Clone Project Blueprint*
 
 ## About the Project
 
@@ -73,3 +73,12 @@ A test automation engineer is there to help you test faster and better. To enabl
 - Builds continuous integration and continuous delivery (CI/CD) pipelines for faster delivery
 
 Even in Agile environments, development and operations teams can be siloed. DevOps engineers serve as a link between the two teams, unifying and automating the software delivery process and helping strike a balance between introducing changes quickly and keeping an application stable. Working together with software developers, system administrators, and operational staff, DevOps engineers oversee and facilitate code releases on a CI/CD basis.
+# Technology Stack
+## Django
+- Django: high level python web framework for building RESTful APIs
+
+## PostgreSQL
+- Advanced open-source reletional database
+
+## GraphQL
+- Modern API quary language (Alternative to REST)
