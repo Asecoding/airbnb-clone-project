@@ -216,3 +216,40 @@ Users can search for properties using filters like location, price range, proper
 
 ## 7. Admin Dashboard
 Admins can oversee all operations—user management, property approvals, dispute resolution, and system analytics. This centralized control ensures platform integrity and smooth day-to-day functioning.
+# API Security
+security is the invisible shield that protects the trust and integrity of the entire platform. Here’s a breakdown of the key security measures you’ll want to implement, and why they’re vital for specific areas:
+
+## 1. Authentication
+Verifies that users are who they claim to be—typically with email/password, two-factor authentication (2FA), or social login.
+
+Why it's crucial: It safeguards user accounts and ensures that only legitimate users can log in, protecting sensitive personal and financial information.
+
+## 2. Authorization
+Controls access to specific resources based on user roles (e.g., guest, host, admin).
+
+Why it's crucial: Prevents unauthorized users from performing restricted actions—like a guest trying to delete a property listing or access admin dashboards.
+
+## 3. Rate Limiting
+Limits the number of requests a user can make in a given time frame.
+
+Why it's crucial: Shields the platform from abuse (e.g., brute-force attacks or bot scraping) and helps maintain performance under heavy usage.
+
+## 4. Data Encryption
+Encrypts sensitive data—both at rest and in transit (using HTTPS and database-level encryption).
+
+Why it's crucial: Protects personal information, booking history, and payment details from interception or data breaches.
+
+## 5. Secure Payment Gateways
+Uses third-party, PCI-compliant services to handle transactions (like Stripe or PayPal).
+
+Why it's crucial: Ensures financial data isn't stored on your servers, reducing liability and risk in case of a breach.
+
+## 6. Input Validation & Sanitization
+Validates and cleans user inputs to prevent code injection attacks (e.g., SQL injection, XSS).
+
+Why it's crucial: Protects the application from being hijacked by malicious scripts or queries—especially vital on forms, search bars, and admin panels.
+
+## 7. Role-Based Access Controls (RBAC)
+Implements access permissions based on defined roles.
+
+Why it's crucial: Supports a clear separation of duties, reducing the risk of errors or misuse—intentionally or otherwise.
