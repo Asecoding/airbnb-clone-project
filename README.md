@@ -3,7 +3,7 @@
 
 ## About the Project
 
-The Airbnb Clone Project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. This project enables learners to understand complex architectures, workflows, and collaborative team dynamics while building a scalable web application.
+**The Airbnb Clone Project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. This project enables learners to understand complex architectures, workflows, and collaborative team dynamics while building a scalable web application.**
 
 # Team Roles
 
@@ -253,3 +253,23 @@ Why it's crucial: Protects the application from being hijacked by malicious scri
 Implements access permissions based on defined roles.
 
 Why it's crucial: Supports a clear separation of duties, reducing the risk of errors or misuse—intentionally or otherwise.
+# CI/CD Pipeline
+CI/CD stands for Continuous Integration and Continuous Deployment—a modern development practice that automates code testing, building, and deployment so changes can go live faster and more reliably.
+
+In a project like your property booking platform, CI/CD pipelines help streamline the release of new features, bug fixes, and updates with minimal downtime or manual effort. They ensure that every code change is automatically tested and deployed in a controlled, repeatable way—boosting both developer productivity and software quality.
+
+## Common Tools Might Use:
+### GitHub Actions 
+– Automates testing and deployment directly from your GitHub repo.
+
+### Docker 
+– Containers your application for consistent environments across development, testing, and production.
+
+### Jenkins 
+– A widely used open-source automation server for custom CI/CD workflows.
+
+### CircleCI 
+– Offers fast, flexible pipelines and strong GitHub integration.
+
+### Kubernetes (with Helm) 
+– Manages containerized deployments at scale.
