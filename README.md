@@ -44,7 +44,7 @@ In Agile projects where the focus is on self-management, transparency, and share
 
 There are two aspects to the product design process—user interface (UI) and user experience (UX) design.
 
-A UI designer devises intuitive, easy-to-use, and eye-pleasing interfaces for a product, while the UX part stands for thinking out an entire journey of a user’s interaction with a product. A UX designer is thus involved in such activities as user research, persona development, information architecture design, wireframing, prototyping, and more.
+A UI designer devises intuitive, easy-to-use, and eye-pleasing interfaces for a product, while the UX part stands for thinking out an entire journey of a user’s interaction with a product. A UX designer is thus involved in such activities as user research, persona development, information architecture design, wireframe, prototyping, and more.
 
 ## Software developer
 
@@ -78,10 +78,10 @@ Even in Agile environments, development and operations teams can be siloed. DevO
 - Django: high level python web framework for building RESTful APIs
 
 ## PostgreSQL
-- Advanced open-source reletional database
+- Advanced open-source relational database
 
 ## GraphQL
-- Modern API quary language (Alternative to REST)
+- Modern API Query language (Alternative to REST)
 
 # Database Design
 Here’s a foundational overview of key entities for a database design that supports a property booking platform—think Airbnb-style. I'll outline the entities, key fields, and how they're connected:
