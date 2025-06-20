@@ -193,3 +193,26 @@ Tracks financial transactions related to bookings.
 - A payment is linked to one booking
 
 - Each booking typically has one payment record
+
+# Feature Breakdown
+Here’s a rundown of the main features typically outlined in a property booking platform project, along with how each contributes to the system’s overall functionality:
+## 1. User Management
+This feature handles registration, login, profile editing, and role assignment (e.g., guest or host). It ensures secure access and personalized experiences, allowing users to interact with the platform according to their roles.
+
+## 2. Property Management
+Hosts can list, update, and manage their properties with details like location, pricing, availability, and images. This feature empowers property owners to showcase their listings effectively and keeps the platform’s offerings up to date.
+
+## 3. Booking System
+Guests can view property availability, make reservations, and manage their bookings. It’s the heart of the platform, connecting users and properties through a seamless reservation workflow.
+
+## 4. Review and Rating System
+After a stay, guests can leave feedback and ratings for properties. This adds transparency and trust, helping future guests make informed decisions and encouraging hosts to maintain high standards.
+
+## 5. Payment Processing
+Handles the financial aspect—guests pay for bookings, and hosts receive payouts. It includes secure transaction processing, invoice generation, and status tracking, ensuring a smooth and trustworthy financial experience.
+
+## 6. Search and Filtering
+Users can search for properties using filters like location, price range, property type, and amenities. This feature makes the platform user-friendly and efficient by helping users quickly find listings that meet their needs.
+
+## 7. Admin Dashboard
+Admins can oversee all operations—user management, property approvals, dispute resolution, and system analytics. This centralized control ensures platform integrity and smooth day-to-day functioning.
