@@ -82,3 +82,114 @@ Even in Agile environments, development and operations teams can be siloed. DevO
 
 ## GraphQL
 - Modern API quary language (Alternative to REST)
+
+# Database Design
+Here’s a foundational overview of key entities for a database design that supports a property booking platform—think Airbnb-style. I'll outline the entities, key fields, and how they're connected:
+## User
+Represents individuals using the platform—both guests and hosts.
+### Key Fields:
+
+- user_id (Primary Key)
+
+- name
+
+- email
+
+- phone_number
+
+- user_type (e.g., guest, host, admin)
+
+### Relationships:
+
+- A user can own multiple properties
+
+- A user can make many bookings
+
+- A user can write many reviews
+
+## 2. Properties
+
+Represents listings available for booking.
+### Key Fields:
+- property_id (Primary Key)
+
+- host_id (Foreign Key → Users.user_id)
+
+- title
+
+- location
+
+- price_per_night
+
+### Relationships:
+
+- A property is owned by one host
+
+- A property can have multiple bookings
+
+- A property can receive multiple reviews
+
+## 3. Bookings
+Captures reservation details made by guests.
+
+- Key Fields:
+
+- booking_id (Primary Key)
+
+- guest_id (Foreign Key → Users.user_id)
+
+- property_id (Foreign Key → Properties.property_id)
+
+- check_in_date
+
+- check_out_date
+
+### Relationships:
+
+- A booking is made by one user (guest)
+
+- A booking is for one property
+
+- A booking may be tied to a payment
+
+## 4. Reviews
+Allows users to leave feedback on properties.
+
+### Key Fields:
+
+- review_id (Primary Key)
+
+- guest_id (Foreign Key → Users.user_id)
+
+- property_id (Foreign Key → Properties.property_id)
+
+- rating (e.g., 1 to 5)
+
+- comment
+
+### Relationships:
+
+- A review is written by a guest
+
+- A review is about a specific property
+
+## 5. Payments
+Tracks financial transactions related to bookings.
+
+### Key Fields:
+
+- payment_id (Primary Key)
+
+- booking_id (Foreign Key → Bookings.booking_id)
+
+- amount
+
+- payment_method
+
+- payment_status
+
+### Relationships:
+
+- A payment is linked to one booking
+
+- Each booking typically has one payment record
